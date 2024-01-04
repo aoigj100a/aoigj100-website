@@ -1,21 +1,20 @@
+import { Link } from "../link/Link";
+
 export const Menu = () => {
   return (
     <ul className="lg:flex lg:w-unset lg:relative lg:top-[8px] flex-wrap items-center mb-6 absolute right-0 top-[40px] block">
       <li>
-        <a
-          href="#"
-          className="mr-4 text-sm text-sky-200 hover:underline md:mr-6"
-        >
-          About
-        </a>
+        <Link href="/" linkName="回首頁" />
       </li>
       <li>
-        <a
-          href="#"
-          className="mr-4 text-sm text-sky-200 hover:underline md:mr-6"
-        >
-          Privacy Policy
-        </a>
+        <Link href="/about" linkName="關於我" />
+      </li>
+      <li>
+        <Link
+          href="https://aoigj100.medium.com/"
+          linkName="部落格"
+          target="_blank"
+        />
       </li>
       <li>
         <a
@@ -26,12 +25,11 @@ export const Menu = () => {
         </a>
       </li>
       <li>
-        <a
-          href="#"
-          className="text-sm text-sky-200 hover:underline"
-        >
-          Contact
-        </a>
+        <Link
+          href="https://portaly.cc/aoigj100"
+          linkName="聯絡資訊"
+          target="_blank"
+        />
       </li>
     </ul>
   );

@@ -19,9 +19,11 @@ const Header = () => {
   }
 
   return (
-    <header className="bg-sky-900 h-[40px]">
+    <header className="relative">
+      <div className="fixed backdrop-blur-sm w-full shadow-lg bg-sky-900/[.8] h-[80px] z-10">
+
       {/* p-4 md:px-6 md:py-8 */}
-      <div className="flex justify-between items-center">
+      <div className="flex justify-between items-center h-full">
         <Logo />
         <nav className="relative flex items-center justify-between flex-wrap">
           <div className="block lg:hidden">
@@ -45,6 +47,7 @@ const Header = () => {
             <Menu />
           </div>
         </nav>
+      </div>
       </div>
     </header>
   );

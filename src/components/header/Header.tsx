@@ -9,6 +9,8 @@ const Header = () => {
     // min-width: 1024px
     if (window.innerWidth > 1024) {
       setIsOpenMenu(true);
+    }else{
+      setIsOpenMenu(false);
     }
   }, []);
 

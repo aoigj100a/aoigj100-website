@@ -7,7 +7,7 @@ export default function Home() {
       <section className=" border-sky-900 border-b-[2px] ">
 
         <div className="flex ">
-          <div className="pt-[400px] pb-[100px] z-20 px-[8px] lg:px-[320px]">
+          <div className="pt-[400px] pb-[100px] z-10 px-[8px] lg:px-[320px]">
 
             <h1 className="pl-[80px] lg:pl-[16px] text-left lg:block flex-1 font-bold underline text-pink-300 pb-[16px]">
               <p>Jenny Liou.</p>
@@ -15,7 +15,7 @@ export default function Home() {
             </h1>
             <div className="pl-[94px] lg:pl-[32px] text-pink-300">
               <p>Lorem Ipsum is simply dummy text of the printing and typesetting</p>
-              <p>industry. Lorem Ipsum has been the industry`&apos;`s standard dummy text</p>
+              <p>industry. Lorem Ipsum has been the industry &apos; s standard dummy text</p>
               <p>ever since the 1500s, when an unknown printer took a galley of</p>
               <p>type and scrambled it to make a type specimen book. It has</p>
               <p>survived not only five centuries, but also the leap into</p>

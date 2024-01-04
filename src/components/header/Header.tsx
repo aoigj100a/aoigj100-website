@@ -16,19 +16,19 @@ const Header = () => {
 
   const openMenuHandler = ()=>{
     setIsOpenMenu(!isOpenMenu)
+    console.log('Menu button clicked');
   }
 
   return (
     <header className="relative">
-      <div className="fixed backdrop-blur-sm w-full shadow-lg bg-sky-900/[.8] h-[80px] z-10">
-
+      <div className="fixed backdrop-blur-sm w-full shadow-lg bg-sky-900/[.8] h-[80px] z-50">
       {/* p-4 md:px-6 md:py-8 */}
       <div className="flex justify-between items-center h-full">
         <Logo />
         <nav className="relative flex items-center justify-between flex-wrap">
           <div className="block lg:hidden">
             <button
-              className="navbar-burger flex items-center px-3 py-2 text-white border-white hover:text-white hover:border-white"
+              className="flex items-center px-3 py-2 text-white border-white hover:text-white hover:border-white pr-[24px]"
               onClick={() => openMenuHandler()}
             >
               <svg

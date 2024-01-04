@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function Home() {
   return (
     <main className="bg-slate-900">
-      <section className=" border-sky-900 border-b-[2px] ">
+      <section className="">
 
         <div className="flex ">
           <div className="pt-[400px] pb-[100px] z-10 px-[8px] lg:px-[320px]">
@@ -40,7 +40,7 @@ export default function Home() {
           />
         </div>
       </section>
-      <Section>
+      {/* <Section>
         <h2 className="font-bold underline text-pink-400">技能列表</h2>
       </Section>
       <Section>
@@ -51,7 +51,7 @@ export default function Home() {
       </Section>
       <Section>
         <h2 className="font-bold underline text-pink-400">聯絡我！</h2>
-      </Section>
+      </Section> */}
     </main>
   );
 }

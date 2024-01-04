@@ -15,7 +15,7 @@ export default function Home() {
             </h1>
             <div className="pl-[94px] lg:pl-[32px] text-pink-300">
               <p>Lorem Ipsum is simply dummy text of the printing and typesetting</p>
-              <p>industry. Lorem Ipsum has been the industry's standard dummy text</p>
+              <p>industry. Lorem Ipsum has been the industry`&apos;`s standard dummy text</p>
               <p>ever since the 1500s, when an unknown printer took a galley of</p>
               <p>type and scrambled it to make a type specimen book. It has</p>
               <p>survived not only five centuries, but also the leap into</p>

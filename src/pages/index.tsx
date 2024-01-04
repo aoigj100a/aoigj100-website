@@ -1,35 +1,28 @@
+import { Section } from "@/components/common/section/Section";
+
 export default function Home() {
   return (
     <main className="bg-slate-900">
-      <section>
-        Hero Section.
-        {/* <button
-          className="middle none center mr-4 rounded-lg bg-red-500 py-3 px-6 font-sans text-xs font-bold uppercase text-white shadow-md shadow-red-500/20 transition-all hover:shadow-lg hover:shadow-red-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
-          data-ripple-light="true"
-        >
-          Button
-        </button>
-        <button
-          className="middle none center mr-4 rounded-lg bg-green-500 py-3 px-6 font-sans text-xs font-bold uppercase text-white shadow-md shadow-green-500/20 transition-all hover:shadow-lg hover:shadow-green-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
-          data-ripple-light="true"
-        >
-          Button
-        </button>
-        <button
-          className="middle none center rounded-lg bg-orange-500 py-3 px-6 font-sans text-xs font-bold uppercase text-white shadow-md shadow-orange-500/20 transition-all hover:shadow-lg hover:shadow-orange-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
-          data-ripple-light="true"
-        >
-          Button
-        </button> */}
-        <h1 className="text-3xl font-bold underline text-pink-500 ">
-          Hello world!
-        </h1>
-      </section>
-      <section>About US.</section>
-      <section>Out Services.</section>
-      <section>Out Features.</section>
-      <section>FAQ.</section>
-      <section>Contact.</section>
+      <Section>
+        <div className="flex">
+          <h1 className="flex-1 font-bold underline text-pink-400 pt-[300px] pb-[300px]">
+            Jenny Liou. Pleased to meet you.
+          </h1>
+          <div className="flex-1 text-white bg-red-300">圖片</div>
+        </div>
+      </Section>
+      <Section>
+        <h2 className="font-bold underline text-pink-400">技能列表</h2>
+      </Section>
+      <Section>
+        <h2 className="font-bold underline text-pink-400">作品集</h2>
+      </Section>
+      <Section>
+        <h2 className="font-bold underline text-pink-400">常見問題</h2>
+      </Section>
+      <Section>
+        <h2 className="font-bold underline text-pink-400">聯絡我！</h2>
+      </Section>
     </main>
   );
 }

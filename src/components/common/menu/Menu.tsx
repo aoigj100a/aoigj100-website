@@ -7,7 +7,11 @@ export const Menu = () => {
         <Link href="/" linkName="回首頁" />
       </li>
       <li>
-        <Link href="/about" linkName="關於我" />
+        <Link
+          href="https://www.cakeresume.com/s--d6XTXjnKaX_REa8KLLKO4Q--/c587fc"
+          linkName="我的簡歷"
+          target="_blank"
+        />
       </li>
       <li>
         <Link
@@ -17,17 +21,9 @@ export const Menu = () => {
         />
       </li>
       <li>
-        <a
-          href="#"
-          className="mr-4 text-sm text-sky-200 hover:underline md:mr-6"
-        >
-          Licensing
-        </a>
-      </li>
-      <li>
         <Link
           href="https://portaly.cc/aoigj100"
-          linkName="聯絡資訊"
+          linkName="社群連結"
           target="_blank"
         />
       </li>

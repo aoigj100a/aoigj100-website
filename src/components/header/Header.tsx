@@ -19,7 +19,7 @@ const Header = () => {
   }
 
   return (
-    <header className="bg-slate-100 h-[40px]">
+    <header className="bg-sky-900 h-[40px]">
       {/* p-4 md:px-6 md:py-8 */}
       <div className="flex justify-between items-center">
         <Logo />
@@ -30,7 +30,7 @@ const Header = () => {
               onClick={() => openMenuHandler()}
             >
               <svg
-                className="fill-current h-6 w-6 text-gray-700"
+                className="fill-current h-6 w-6 text-sky-50"
                 viewBox="0 0 20 20"
                 xmlns="http://www.w3.org/2000/svg"
               >

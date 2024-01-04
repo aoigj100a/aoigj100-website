@@ -2,7 +2,7 @@ import { Logo } from "../common/logo/Logo";
 
 const Footer = () => {
   return (
-    <footer className="bg-slate-50">
+    <footer className="bg-sky-900">
       {/* p-4 md:px-6 md:py-8 */}
       <div className="sm:flex sm:items-center sm:justify-between">
         <Logo/>
@@ -10,7 +10,7 @@ const Footer = () => {
       <li>
         <a
           href="#"
-          className="mr-4 text-sm text-gray-500 hover:underline md:mr-6 dark:text-gray-400"
+          className="mr-4 text-sm text-sky-200 hover:underline md:mr-6"
         >
           About
         </a>
@@ -18,7 +18,7 @@ const Footer = () => {
       <li>
         <a
           href="#"
-          className="mr-4 text-sm text-gray-500 hover:underline md:mr-6 dark:text-gray-400"
+          className="mr-4 text-sm text-sky-200 hover:underline md:mr-6"
         >
           Privacy Policy
         </a>
@@ -26,7 +26,7 @@ const Footer = () => {
       <li>
         <a
           href="#"
-          className="mr-4 text-sm text-gray-500 hover:underline md:mr-6 dark:text-gray-400"
+          className="mr-4 text-sm text-sky-200 hover:underline md:mr-6"
         >
           Licensing
         </a>
@@ -34,7 +34,7 @@ const Footer = () => {
       <li>
         <a
           href="#"
-          className="text-sm text-gray-500 hover:underline dark:text-gray-400"
+          className="text-sm text-sky-200 hover:underline"
         >
           Contact
         </a>
@@ -42,8 +42,8 @@ const Footer = () => {
     </ul>
       </div>
       {/* 分隔線 */}
-      {/* <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" /> */}
-      <span className="block text-sm text-gray-500 sm:text-center dark:text-gray-400">
+      <hr className="border-pink-500 sm:mx-auto bg-pink-500" />
+      <span className="flex items-center text-sm text-sky-50">
         © 2022 . All Rights Reserved.
       </span>
     </footer>

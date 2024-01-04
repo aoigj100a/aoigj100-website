@@ -4,7 +4,7 @@ export const Menu = () => {
       <li>
         <a
           href="#"
-          className="mr-4 text-sm text-gray-500 hover:underline md:mr-6 dark:text-gray-400"
+          className="mr-4 text-sm text-sky-200 hover:underline md:mr-6"
         >
           About
         </a>
@@ -12,7 +12,7 @@ export const Menu = () => {
       <li>
         <a
           href="#"
-          className="mr-4 text-sm text-gray-500 hover:underline md:mr-6 dark:text-gray-400"
+          className="mr-4 text-sm text-sky-200 hover:underline md:mr-6"
         >
           Privacy Policy
         </a>
@@ -20,7 +20,7 @@ export const Menu = () => {
       <li>
         <a
           href="#"
-          className="mr-4 text-sm text-gray-500 hover:underline md:mr-6 dark:text-gray-400"
+          className="mr-4 text-sm text-sky-200 hover:underline md:mr-6"
         >
           Licensing
         </a>
@@ -28,7 +28,7 @@ export const Menu = () => {
       <li>
         <a
           href="#"
-          className="text-sm text-gray-500 hover:underline dark:text-gray-400"
+          className="text-sm text-sky-200 hover:underline"
         >
           Contact
         </a>

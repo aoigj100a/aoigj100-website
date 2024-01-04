@@ -1,9 +1,9 @@
 export default function Home() {
   return (
-    <main>
-      <div>
+    <main className="bg-slate-900">
+      <section>
         Hero Section.
-        <button
+        {/* <button
           className="middle none center mr-4 rounded-lg bg-red-500 py-3 px-6 font-sans text-xs font-bold uppercase text-white shadow-md shadow-red-500/20 transition-all hover:shadow-lg hover:shadow-red-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
           data-ripple-light="true"
         >
@@ -20,16 +20,16 @@ export default function Home() {
           data-ripple-light="true"
         >
           Button
-        </button>
-        <h1 className="text-3xl font-bold underline text-orange-500 ">
+        </button> */}
+        <h1 className="text-3xl font-bold underline text-pink-500 ">
           Hello world!
         </h1>
-      </div>
-      <div>About US.</div>
-      <div>Out Services.</div>
-      <div>Out Features.</div>
-      <div>FAQ.</div>
-      <div>Contact.</div>
+      </section>
+      <section>About US.</section>
+      <section>Out Services.</section>
+      <section>Out Features.</section>
+      <section>FAQ.</section>
+      <section>Contact.</section>
     </main>
   );
 }

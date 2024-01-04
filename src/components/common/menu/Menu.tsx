@@ -1,6 +1,6 @@
 export const Menu = () => {
   return (
-    <ul className="flex flex-wrap items-center mb-6 sm:mb-0">
+    <ul className="lg:flex lg:w-unset lg:relative lg:top-[8px] flex-wrap items-center mb-6 sm:absolute sm:right-0 sm:top-[40px] sm:block">
       <li>
         <a
           href="#"

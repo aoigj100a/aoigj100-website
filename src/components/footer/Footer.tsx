@@ -7,7 +7,7 @@ const Footer = () => {
       {/* 分隔線 */}
       <hr className="border-pink-500  bg-pink-500" />
       {/* p-4 md:px-6 md:py-8 */}
-      <div className="sm:flex sm:items-center sm:justify-between">
+      <div className="pl-[16px] sm:flex sm:items-center sm:justify-between">
         {/* <Logo /> */}
         <ul className="flex flex-wrap items-center  justify-center pb-6 pt-6 sm:pb-0 sm:pt-0">
           <li>

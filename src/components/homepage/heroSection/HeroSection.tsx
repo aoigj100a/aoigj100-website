@@ -7,7 +7,7 @@ export const HeroSection = () => {
         <div className="pt-[300px] pb-[100px] z-10 px-[8px] lg:px-[320px]">
           <h1 className="pl-[40px] lg:pl-[16px] text-left lg:block flex-1 font-bold underline text-pink-300 pb-[24px]">
             <p className="tracking-wide">Jenny Liou.</p>
-            <p className="tracking-wide">Pleased to meet you.</p>
+            <p className="lg:block hidden tracking-wide ">Pleased to meet you.</p>
           </h1>
           <div className="lg:pl-[32px] text-pink-300">
             <p className="tracking-wider">

@@ -7,7 +7,7 @@ const Footer = () => {
       {/* 分隔線 */}
       <hr className="border-pink-500  bg-pink-500" />
       {/* p-4 md:px-6 md:py-8 */}
-      <div className="pl-[16px] sm:flex sm:items-center sm:justify-between">
+      <div className="lg:pl-[32px] sm:flex sm:items-center sm:justify-between">
         {/* <Logo /> */}
         <ul className="flex flex-wrap items-center  justify-center pb-6 pt-6 sm:pb-0 sm:pt-0">
           <li>
@@ -37,7 +37,7 @@ const Footer = () => {
         </ul>
       </div>
 
-      <span className="flex items-center justify-center text-sm text-sky-200 h-full pb-6 pt-6 sm:pb-0 sm:pt-0">
+      <span className=" lg:p-[8px] flex items-center justify-center text-sm text-sky-200 h-full pb-6 pt-6 sm:pb-0 sm:pt-0">
         © 2024 . All Rights Reserved.
       </span>
     </footer>
